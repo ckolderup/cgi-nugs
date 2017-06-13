@@ -1,0 +1,26 @@
+{
+  "name": "cool-games-inc",
+  "version": "1.0.0",
+  "description": "foo",
+  "main": "index.js",
+  "dependencies": {
+    "require-dir": "^0.3.2",
+    "underscore": "^1.8.3",
+    "wordfilter": "^0.2.6"
+  },
+  "devDependencies": {
+    "bluebird": "^3.5.0",
+    "dotenv": "^4.0.0",
+    "jsonfile": "^3.0.0",
+    "snoowrap": "^1.14.0",
+    "snudown-js": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "scrape": "node reddit-update.js"
+  },
+  "repository": {},
+  "author": "",
+  "license": "ISC"
+}
